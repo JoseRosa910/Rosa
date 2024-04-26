@@ -14,7 +14,7 @@ import java.util.*;
 public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface, CYKInterface {
 
     private HashSet<Character> noterminales = new HashSet();
-    private HashMap<Character, ArrayList<String>> producciones;
+    private HashMap<Character, ArrayList<String>> producciones = new HashMap<>();
     private HashSet<Character> terminales = new HashSet();
 
     /**
@@ -132,7 +132,13 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * (terminales o no terminales) no definidos previamente.
      */
     public void addProduction(char nonterminal, String production) throws CFGAlgorithmsException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        if (Character.isLetter(nonterminal) && Character.isUpperCase(nonterminal) && noterminales.contains(nonterminal)) {
+            ArrayList<String> cadenas = new ArrayList<>();
+            cadenas.add(production);
+            producciones.put(nonterminal, cadenas);
+        } else {
+            throw new CFGAlgorithmsException();
+        }
     }
 
     /**
@@ -161,7 +167,8 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * derecha de cada producción
      */
     public List<String> getProductions(char nonterminal) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        List<String> production = producciones.get(nonterminal);
+        return production;
     }
 
     /**
@@ -178,6 +185,7 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * POR ORDEN ALFABÉTICO.
      */
     public String getProductionsToString(char nonterminal) {
+
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
