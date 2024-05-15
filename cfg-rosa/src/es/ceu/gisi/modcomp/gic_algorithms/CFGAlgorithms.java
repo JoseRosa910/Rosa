@@ -16,6 +16,7 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
     private HashSet<Character> noterminales = new HashSet();
     private HashMap<Character, ArrayList<String>> producciones = new HashMap<>();
     private HashSet<Character> terminales = new HashSet();
+    private Character axioma;
 
     /**
      * Método que añade los elementos no terminales de la gramática.
@@ -43,7 +44,11 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * @throws CFGAlgorithmsException Si el elemento no pertenece a la gramática
      */
     public void removeNonTerminal(char nonterminal) throws CFGAlgorithmsException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        if (noterminales.contains(nonterminal)) {
+            noterminales.remove(nonterminal);
+        } else {
+            throw new CFGAlgorithmsException();
+        }
     }
 
     /**
@@ -81,7 +86,11 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * @throws CFGAlgorithmsException Si el elemento no pertenece a la gramática
      */
     public void removeTerminal(char terminal) throws CFGAlgorithmsException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        if (terminales.contains(terminal)) {
+            terminales.remove(terminal);
+        } else {
+            throw new CFGAlgorithmsException();
+        }
     }
 
     /**
@@ -104,7 +113,11 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * del conjunto de elementos no terminales.
      */
     public void setStartSymbol(char nonterminal) throws CFGAlgorithmsException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        if (noterminales.contains(nonterminal)) {
+            axioma = nonterminal;
+        } else {
+            throw new CFGAlgorithmsException();
+        }
     }
 
     /**
@@ -116,7 +129,11 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * establecido.
      */
     public Character getStartSymbol() throws CFGAlgorithmsException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        if (!(axioma == null)) {
+            return axioma;
+        } else {
+            throw new CFGAlgorithmsException();
+        }
     }
 
     /**
@@ -132,10 +149,11 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * (terminales o no terminales) no definidos previamente.
      */
     public void addProduction(char nonterminal, String production) throws CFGAlgorithmsException {
-        if (Character.isLetter(nonterminal) && Character.isUpperCase(nonterminal) && noterminales.contains(nonterminal)) {
-            ArrayList<String> cadenas = new ArrayList<>();
-            cadenas.add(production);
-            producciones.put(nonterminal, cadenas);
+        if (noterminales.contains(nonterminal) && noterminales.contains(production)  {
+            ArrayList<String> produccion = new ArrayList<>();
+            produccion.add(production);
+            producciones.keySet().add(nonterminal);
+            producciones.put(nonterminal, produccion);
         } else {
             throw new CFGAlgorithmsException();
         }
@@ -185,8 +203,7 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * POR ORDEN ALFABÉTICO.
      */
     public String getProductionsToString(char nonterminal) {
-
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return null;
     }
 
     /**
