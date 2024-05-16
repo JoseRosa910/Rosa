@@ -150,11 +150,12 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      */
     public void addProduction(char nonterminal, String production) throws CFGAlgorithmsException {
         if (noterminales.contains(nonterminal) && produccionValida(production)) {
-            ArrayList<String> produccion = new ArrayList<>();
-            produccion.add(production);
             if (producciones.containsKey(nonterminal)) {
                 producciones.get(nonterminal).add(production);
+
             } else {
+                ArrayList<String> produccion = new ArrayList<>();
+                produccion.add(production);
                 producciones.put(nonterminal, produccion);
             }
         } else {
@@ -163,16 +164,9 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
     }
 
     public boolean produccionValida(String production) {
-        String vacia = "";
-        char c;
-        for (int i = 0; production.compareTo(vacia) > i; i++) {
-            c = production.charAt(i);
-            if (Character.isUpperCase(c)) {
-                noterminales.contains(c);
-            }
-            if (Character.isLowerCase(c)) {
-                terminales.contains(c);
-            } else {
+        for (int i = 0; production.length() > i; i++) {
+            char c = production.charAt(i);
+            if (!noterminales.contains(c) || !terminales.contains(c)) {
                 return false;
             }
         }

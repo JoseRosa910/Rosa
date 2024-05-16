@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="8" failures="8" hostname="BOLOS-GAMER" name="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" skipped="0" tests="31" time="0.205" timestamp="2024-05-15T17:15:06">
+<testsuite errors="8" failures="0" hostname="BOLOS-GAMER" name="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" skipped="0" tests="31" time="0.128" timestamp="2024-05-16T17:51:40">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-21\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -18,7 +18,7 @@
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\test\results\TEST-es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.xml crashfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junitvmwatcher1855425282322237558.properties propsfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junit6468879614527077219.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\test\results\TEST-es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.xml crashfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junitvmwatcher6889171219646376907.properties propsfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junit9506518960956949097.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -210,7 +210,7 @@
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\servlet4.0-jsp2.3-api.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\glassfish-jspparser-5.1.0.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\servlet4.0-jsp2.3-api.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\glassfish-jspparser-5.1.0.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant-launcher.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
-    <property name="javac.includesfile.binary" value="C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\null1630622494" />
+    <property name="javac.includesfile.binary" value="C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\null1896255983" />
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -447,141 +447,42 @@
   </properties>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirNoTerminalValido" time="0.005" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminaProduccionValida1" time="0.004">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarEliminaProduccionValida1(T1_CFGBasicTest.java:348)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminaProduccionValida2" time="0.002">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminaProduccionValida2" time="0.001">
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarEliminaProduccionValida2(T1_CFGBasicTest.java:364)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAxiomaNoEstablecido" time="0.004" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEstablecerAxiomaValido" time="0.0" />
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirNoTerminalNoValido1" time="0.0" />
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirNoTerminalNoValido2" time="0.001" />
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirNoTerminalNoValido3" time="0.0" />
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminaProduccionNoValida1" time="0.036">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarEliminaProduccionNoValida1(T1_CFGBasicTest.java:380)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarEliminaProduccionNoValida1(T1_CFGBasicTest.java:380)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida1" time="0.035">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida1(T1_CFGBasicTest.java:240)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida1(T1_CFGBasicTest.java:240)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirNoTerminalNoValido1" time="0.001" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirNoTerminalNoValido2" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirNoTerminalNoValido3" time="0.001" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminaProduccionNoValida1" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida1" time="0.0" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida2" time="0.0" />
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida3" time="0.002">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida3(T1_CFGBasicTest.java:267)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida3(T1_CFGBasicTest.java:267)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida4" time="0.005">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida4(T1_CFGBasicTest.java:281)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida4(T1_CFGBasicTest.java:281)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida5" time="0.006">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida5(T1_CFGBasicTest.java:294)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida5(T1_CFGBasicTest.java:294)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida6" time="0.006">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida6(T1_CFGBasicTest.java:308)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida6(T1_CFGBasicTest.java:308)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida7" time="0.007">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida7(T1_CFGBasicTest.java:322)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida7(T1_CFGBasicTest.java:322)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida8" time="0.008">
-    <failure message="&#xa;Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException&#xa;     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException&#xa;Stacktrace was: java.lang.UnsupportedOperationException&#xd;&#xa;&#x9;at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)&#xd;&#xa;&#x9;at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida8(T1_CFGBasicTest.java:336)&#xd;&#xa;&#x9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xd;&#xa;&#x9;at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#xd;&#xa;&#x9;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#xd;&#xa;&#x9;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#xd;&#xa;&#x9;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#xd;&#xa;&#x9;at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#xd;&#xa;&#x9;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#xd;&#xa;&#x9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#xd;&#xa;&#x9;at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1197)&#xd;&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1042)&#xd;&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: an instance of es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
-     but: &lt;java.lang.UnsupportedOperationException&gt; is a java.lang.UnsupportedOperationException
-Stacktrace was: java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionNoValida8(T1_CFGBasicTest.java:336)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-</failure>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminarTerminalValido1" time="0.0" />
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminarTerminalValido2" time="0.0">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida3" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida4" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida5" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida6" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida7" time="0.001" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionNoValida8" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminarTerminalValido1" time="0.001" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminarTerminalValido2" time="0.001">
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarEliminarTerminalValido2(T1_CFGBasicTest.java:96)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEstablecerAxiomaNoValido1" time="0.001" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEstablecerAxiomaNoValido1" time="0.0" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEstablecerAxiomaNoValido2" time="0.0" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEstablecerAxiomaNoValido3" time="0.0" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirTerminalValido" time="0.0" />
@@ -589,41 +490,36 @@ Stacktrace was: java.lang.UnsupportedOperationException
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirTerminalNoValido2" time="0.0" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirTerminalNoValido3" time="0.0" />
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionValida1" time="0.0">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionValida1(T1_CFGBasicTest.java:205)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarAniadirProduccionValida2" time="0.001">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarAniadirProduccionValida2(T1_CFGBasicTest.java:220)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEsGICValido1" time="0.001">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarEsGICValido1(T1_CFGBasicTest.java:480)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminarGramaticaValido" time="0.0">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarEliminarGramaticaValido" time="0.001">
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarEliminarGramaticaValido(T1_CFGBasicTest.java:435)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarRecuperarProducciones" time="0.0">
-    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at java.base/java.util.AbstractCollection.add(AbstractCollection.java:253)
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:155)
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest" name="comprobarRecuperarProducciones" time="0.001">
+    <error type="es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException">es.ceu.gisi.modcomp.gic_algorithms.exceptions.CFGAlgorithmsException
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.addProduction(CFGAlgorithms.java:162)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T1_CFGBasicTest.comprobarRecuperarProducciones(T1_CFGBasicTest.java:401)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
