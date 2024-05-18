@@ -185,7 +185,11 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * elemento no terminal.
      */
     public boolean removeProduction(char nonterminal, String production) throws CFGAlgorithmsException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        if (producciones.get(nonterminal).contains(production)) {
+            return producciones.get(nonterminal).remove(production);
+        } else {
+            throw new CFGAlgorithmsException();
+        }
     }
 
     /**
@@ -200,6 +204,7 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      */
     public List<String> getProductions(char nonterminal) {
         List<String> production = producciones.get(nonterminal);
+        Collections.sort(production);
         return production;
     }
 
@@ -217,7 +222,12 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * POR ORDEN ALFABÉTICO.
      */
     public String getProductionsToString(char nonterminal) {
-        return null;
+        String p = nonterminal + "::=";
+        p = p + getProductions(nonterminal).getFirst(); // Modificar getProductions para ordenar alfabéticamente
+        for (int i = 1; producciones.get(nonterminal).size() >= i; i++) {
+            p = p + "| " + getProductions(nonterminal).get(i);
+        }
+        return p;
     }
 
     /**
