@@ -55,10 +55,13 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
     public void eliminarsiLacontiene(char letra) {
         String cad = "" + letra;
         for (Character nt : producciones.keySet()) {
-            List<String> produccNT = producciones.get(nt);
-            for (String prod : produccNT) {
+            List<String> producc = producciones.get(nt);
+            Iterator<String> iterador = producc.iterator();
+
+            while (iterador.hasNext()) {
+                String prod = iterador.next();
                 if (prod.contains(cad)) {
-                    producciones.remove(nt, prod);
+                    iterador.remove();
                 }
             }
         }
