@@ -45,9 +45,22 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      */
     public void removeNonTerminal(char nonterminal) throws CFGAlgorithmsException {
         if (noterminales.contains(nonterminal)) {
+            eliminarsiLacontiene(nonterminal);
             noterminales.remove(nonterminal);
         } else {
             throw new CFGAlgorithmsException();
+        }
+    }
+
+    public void eliminarsiLacontiene(char letra) {
+        String cad = "" + letra;
+        for (Character nt : producciones.keySet()) {
+            List<String> produccNT = producciones.get(nt);
+            for (String prod : produccNT) {
+                if (prod.contains(cad)) {
+                    producciones.remove(nt, prod);
+                }
+            }
         }
     }
 
@@ -87,6 +100,7 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      */
     public void removeTerminal(char terminal) throws CFGAlgorithmsException {
         if (terminales.contains(terminal)) {
+            eliminarsiLacontiene(terminal);
             terminales.remove(terminal);
         } else {
             throw new CFGAlgorithmsException();
@@ -151,7 +165,11 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
     public void addProduction(char nonterminal, String production) throws CFGAlgorithmsException {
         if (noterminales.contains(nonterminal) && produccionValida(production)) {
             if (producciones.containsKey(nonterminal)) {
-                producciones.get(nonterminal).add(production);
+                if (!producciones.get(nonterminal).contains(production)) {
+                    producciones.get(nonterminal).add(production);
+                } else {
+                    throw new CFGAlgorithmsException();
+                }
 
             } else {
                 ArrayList<String> produccion = new ArrayList<>();
@@ -164,13 +182,15 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
     }
 
     public boolean produccionValida(String production) {
+        if (production.equals("l")) {
+            return true;
+        }
+        boolean salida = true;
         for (int i = 0; production.length() > i; i++) {
             char c = production.charAt(i);
-            if (!noterminales.contains(c) || !terminales.contains(c)) {
-                return false;
-            }
+            salida = salida && (noterminales.contains(c) || terminales.contains(c));
         }
-        return true;
+        return salida;
     }
 
     /**
@@ -224,8 +244,8 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
     public String getProductionsToString(char nonterminal) {
         String p = nonterminal + "::=";
         p = p + getProductions(nonterminal).getFirst(); // Modificar getProductions para ordenar alfabéticamente
-        for (int i = 1; producciones.get(nonterminal).size() >= i; i++) {
-            p = p + "| " + getProductions(nonterminal).get(i);
+        for (int i = 1; producciones.get(nonterminal).size() > i; i++) {
+            p = p + "|" + getProductions(nonterminal).get(i);
         }
         return p;
     }
