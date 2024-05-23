@@ -261,7 +261,18 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * los elementos no terminales ORDENADOS POR ORDEN ALFABÉTICO.
      */
     public String getGrammar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        List<Character> c = null;
+        char a;
+        String cadena = "";
+        for (Character nt : producciones.keySet()) {
+            c.add(nt);
+        }
+        Collections.sort(c);
+        for (int i = 0; c.size() > i; i++) {
+            a = c.get(i);
+            cadena = cadena + getProductionsToString(a) + ",\n";
+        }
+        return cadena;
     }
 
     /**
