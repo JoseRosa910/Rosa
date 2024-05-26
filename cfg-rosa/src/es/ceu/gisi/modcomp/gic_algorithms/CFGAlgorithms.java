@@ -245,10 +245,13 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * POR ORDEN ALFABÉTICO.
      */
     public String getProductionsToString(char nonterminal) {
-        String p = nonterminal + "::=";
-        p = p + getProductions(nonterminal).getFirst(); // Modificar getProductions para ordenar alfabéticamente
-        for (int i = 1; producciones.get(nonterminal).size() > i; i++) {
-            p = p + "|" + getProductions(nonterminal).get(i);
+        String p = "";
+        if (noterminales.contains(nonterminal)) {
+            p = nonterminal + "::=";
+            p = p + getProductions(nonterminal).getFirst(); // Modificar getProductions para ordenar alfabéticamente
+            for (int i = 1; producciones.get(nonterminal).size() > i; i++) {
+                p = p + "|" + getProductions(nonterminal).get(i);
+            }
         }
         return p;
     }
@@ -261,7 +264,7 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * los elementos no terminales ORDENADOS POR ORDEN ALFABÉTICO.
      */
     public String getGrammar() {
-        List<Character> c = null;
+        List<Character> c = new ArrayList<>();
         char a;
         String cadena = "";
         for (Character nt : producciones.keySet()) {
@@ -281,7 +284,9 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * dejando el algoritmo listo para volver a insertar una gramática nueva.
      */
     public void deleteGrammar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        producciones.clear();
+        noterminales.clear();
+        terminales.clear();
     }
 
     /**
@@ -290,8 +295,19 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      *
      * @return true Si la gramática es una gramática independiente del contexto.
      */
-    public boolean isCFG() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public boolean isCFG() { // No encuentro forma de hacerlo
+        String lam = "l";
+        for (Character nt : producciones.keySet()) {
+            if (!nt.equals(axioma)) {
+                for (int i = 0; producciones.get(nt).size() > i; i++) {
+                    String prod = producciones.get(nt).get(i);
+                    if (prod.contains(lam)) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
     }
 
     /**
@@ -301,7 +317,16 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * @return True si contiene ese tipo de reglas
      */
     public boolean hasUselessProductions() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        String cad = "";
+        for (Character nt : producciones.keySet()) {
+            cad = "" + nt;
+            for (String prod : producciones.get(nt)) {
+                if (prod.equals(cad)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     /**
@@ -311,7 +336,20 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * por cada producción), con todas las reglas innecesarias eliminadas.
      */
     public List<String> removeUselessProductions() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        String cad = "";
+        String prodElim = "";
+        List<String> prodsElim = new ArrayList<>();
+        for (Character nt : producciones.keySet()) {
+            cad = "" + nt;
+            for (String prod : producciones.get(nt)) {
+                if (prod.equals(cad)) {
+                    prodElim = nt + "::=" + prod;
+                    prodsElim.add(prodElim);
+                    producciones.get(nt).remove(prod);
+                }
+            }
+        }
+        return prodsElim;
     }
 
     /**

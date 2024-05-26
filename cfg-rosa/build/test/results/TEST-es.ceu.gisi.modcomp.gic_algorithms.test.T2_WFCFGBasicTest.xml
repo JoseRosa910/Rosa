@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="16" failures="0" hostname="BOLOS-GAMER" name="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" skipped="0" tests="16" time="0.094" timestamp="2024-05-23T15:05:45">
+<testsuite errors="13" failures="0" hostname="BOLOS-GAMER" name="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" skipped="0" tests="16" time="0.09" timestamp="2024-05-26T15:50:29">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-21\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-21\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -18,7 +18,7 @@
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\test\results\TEST-es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.xml crashfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junitvmwatcher8730911314294469258.properties propsfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junit6094562491400637781.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\test\results\TEST-es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.xml crashfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junitvmwatcher15993647791952326433.properties propsfile=C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\junit18379800145876706684.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -62,6 +62,7 @@
     <property name="run.upgrademodulepath" value="" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="org.openide.version" value="deprecated" />
+    <property name="test.includes" value="es/ceu/gisi/modcomp/gic_algorithms/test/T2_WFCFGBasicTest.java" />
     <property name="run.classpath" value=":build/classes" />
     <property name="libs.jaxb.src" value="" />
     <property name="sun.awt.enableExtraMouseButtons" value="true" />
@@ -74,8 +75,8 @@
     <property name="user.timezone" value="Europe/Madrid" />
     <property name="jar.index" value="false" />
     <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans-21\netbeans\java\modules\ext\eclipselink\jakarta.persistence-2.2.3.jar" />
-    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
     <property name="java.vm.specification.version" value="21" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
     <property name="libs.junit_5.classpath" value="C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
     <property name="javadoc.noindex" value="false" />
     <property name="javadoc.private" value="false" />
@@ -159,7 +160,6 @@
     <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="libs.javaee-web-api-8.0.maven-pom" value="" />
     <property name="netbeans.dirs" value="C:\Program Files\NetBeans-21\netbeans\nb;C:\Program Files\NetBeans-21\netbeans\ergonomics;C:\Program Files\NetBeans-21\netbeans\ide;C:\Program Files\NetBeans-21\netbeans\extide;C:\Program Files\NetBeans-21\netbeans\java;C:\Program Files\NetBeans-21\netbeans\apisupport;C:\Program Files\NetBeans-21\netbeans\webcommon;C:\Program Files\NetBeans-21\netbeans\websvccommon;C:\Program Files\NetBeans-21\netbeans\enterprise;C:\Program Files\NetBeans-21\netbeans\mobility;C:\Program Files\NetBeans-21\netbeans\profiler;C:\Program Files\NetBeans-21\netbeans\python;C:\Program Files\NetBeans-21\netbeans\php;C:\Program Files\NetBeans-21\netbeans\identity;C:\Program Files\NetBeans-21\netbeans\harness;C:\Program Files\NetBeans-21\netbeans\cnd;C:\Program Files\NetBeans-21\netbeans\cndext;C:\Program Files\NetBeans-21\netbeans\cpplite;C:\Program Files\NetBeans-21\netbeans\dlight;C:\Program Files\NetBeans-21\netbeans\groovy;C:\Program Files\NetBeans-21\netbeans\extra;C:\Program Files\NetBeans-21\netbeans\javacard;C:\Program Files\NetBeans-21\netbeans\javafx;C:\Program Files\NetBeans-21\netbeans\rust" />
-    <property name="tests.failed" value="true" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.processorpath" value="" />
     <property name="ant.file.gic-rosa" value="C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build.xml" />
@@ -179,7 +179,7 @@
     <property name="javac.test.sourcepath" value="C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\empty" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="junit.selected.version" value="4" />
-    <property name="includes" value="es/ceu/gisi/modcomp/gic_algorithms/test/**/*Test.java" />
+    <property name="includes" value="**" />
     <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans-21\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="javadoc.splitindex" value="true" />
@@ -209,6 +209,7 @@
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\servlet4.0-jsp2.3-api.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\glassfish-jspparser-5.1.0.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\servlet4.0-jsp2.3-api.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\glassfish-jspparser-5.1.0.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant-launcher.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
+    <property name="javac.includesfile.binary" value="C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\null2106170097" />
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -337,6 +338,7 @@
     <property name="libs.jakartaee-api-10.0.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-10.0.0.jar" />
     <property name="netbeans.user" value="C:\Users\Usuario\AppData\Roaming\NetBeans\21" />
     <property name="platforms.JDK_21.bootclasspath" value="C:\Program Files\Java\jdk-21\!/modules/java.base/;C:\Program Files\Java\jdk-21\!/modules/java.compiler/;C:\Program Files\Java\jdk-21\!/modules/java.datatransfer/;C:\Program Files\Java\jdk-21\!/modules/java.desktop/;C:\Program Files\Java\jdk-21\!/modules/java.instrument/;C:\Program Files\Java\jdk-21\!/modules/java.logging/;C:\Program Files\Java\jdk-21\!/modules/java.management/;C:\Program Files\Java\jdk-21\!/modules/java.management.rmi/;C:\Program Files\Java\jdk-21\!/modules/java.naming/;C:\Program Files\Java\jdk-21\!/modules/java.net.http/;C:\Program Files\Java\jdk-21\!/modules/java.prefs/;C:\Program Files\Java\jdk-21\!/modules/java.rmi/;C:\Program Files\Java\jdk-21\!/modules/java.scripting/;C:\Program Files\Java\jdk-21\!/modules/java.se/;C:\Program Files\Java\jdk-21\!/modules/java.security.jgss/;C:\Program Files\Java\jdk-21\!/modules/java.security.sasl/;C:\Program Files\Java\jdk-21\!/modules/java.smartcardio/;C:\Program Files\Java\jdk-21\!/modules/java.sql/;C:\Program Files\Java\jdk-21\!/modules/java.sql.rowset/;C:\Program Files\Java\jdk-21\!/modules/java.transaction.xa/;C:\Program Files\Java\jdk-21\!/modules/java.xml/;C:\Program Files\Java\jdk-21\!/modules/java.xml.crypto/;C:\Program Files\Java\jdk-21\!/modules/jdk.accessibility/;C:\Program Files\Java\jdk-21\!/modules/jdk.attach/;C:\Program Files\Java\jdk-21\!/modules/jdk.charsets/;C:\Program Files\Java\jdk-21\!/modules/jdk.compiler/;C:\Program Files\Java\jdk-21\!/modules/jdk.crypto.cryptoki/;C:\Program Files\Java\jdk-21\!/modules/jdk.crypto.ec/;C:\Program Files\Java\jdk-21\!/modules/jdk.crypto.mscapi/;C:\Program Files\Java\jdk-21\!/modules/jdk.dynalink/;C:\Program Files\Java\jdk-21\!/modules/jdk.editpad/;C:\Program Files\Java\jdk-21\!/modules/jdk.hotspot.agent/;C:\Program Files\Java\jdk-21\!/modules/jdk.httpserver/;C:\Program Files\Java\jdk-21\!/modules/jdk.incubator.vector/;C:\Program Files\Java\jdk-21\!/modules/jdk.internal.ed/;C:\Program Files\Java\jdk-21\!/modules/jdk.internal.jvmstat/;C:\Program Files\Java\jdk-21\!/modules/jdk.internal.le/;C:\Program Files\Java\jdk-21\!/modules/jdk.internal.opt/;C:\Program Files\Java\jdk-21\!/modules/jdk.internal.vm.ci/;C:\Program Files\Java\jdk-21\!/modules/jdk.internal.vm.compiler/;C:\Program Files\Java\jdk-21\!/modules/jdk.internal.vm.compiler.management/;C:\Program Files\Java\jdk-21\!/modules/jdk.jartool/;C:\Program Files\Java\jdk-21\!/modules/jdk.javadoc/;C:\Program Files\Java\jdk-21\!/modules/jdk.jcmd/;C:\Program Files\Java\jdk-21\!/modules/jdk.jconsole/;C:\Program Files\Java\jdk-21\!/modules/jdk.jdeps/;C:\Program Files\Java\jdk-21\!/modules/jdk.jdi/;C:\Program Files\Java\jdk-21\!/modules/jdk.jdwp.agent/;C:\Program Files\Java\jdk-21\!/modules/jdk.jfr/;C:\Program Files\Java\jdk-21\!/modules/jdk.jlink/;C:\Program Files\Java\jdk-21\!/modules/jdk.jpackage/;C:\Program Files\Java\jdk-21\!/modules/jdk.jshell/;C:\Program Files\Java\jdk-21\!/modules/jdk.jsobject/;C:\Program Files\Java\jdk-21\!/modules/jdk.jstatd/;C:\Program Files\Java\jdk-21\!/modules/jdk.localedata/;C:\Program Files\Java\jdk-21\!/modules/jdk.management/;C:\Program Files\Java\jdk-21\!/modules/jdk.management.agent/;C:\Program Files\Java\jdk-21\!/modules/jdk.management.jfr/;C:\Program Files\Java\jdk-21\!/modules/jdk.naming.dns/;C:\Program Files\Java\jdk-21\!/modules/jdk.naming.rmi/;C:\Program Files\Java\jdk-21\!/modules/jdk.net/;C:\Program Files\Java\jdk-21\!/modules/jdk.nio.mapmode/;C:\Program Files\Java\jdk-21\!/modules/jdk.random/;C:\Program Files\Java\jdk-21\!/modules/jdk.sctp/;C:\Program Files\Java\jdk-21\!/modules/jdk.security.auth/;C:\Program Files\Java\jdk-21\!/modules/jdk.security.jgss/;C:\Program Files\Java\jdk-21\!/modules/jdk.unsupported/;C:\Program Files\Java\jdk-21\!/modules/jdk.unsupported.desktop/;C:\Program Files\Java\jdk-21\!/modules/jdk.xml.dom/;C:\Program Files\Java\jdk-21\!/modules/jdk.zipfs/" />
+    <property name="javac.includes.binary" value="C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\test\classes\es\ceu\gisi\modcomp\gic_algorithms\test\T2_WFCFGBasicTest.class" />
     <property name="file.separator" value="\" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="javadoc.additionalparam" value="" />
@@ -376,6 +378,7 @@
     <property name="libs.spring-framework500.src" value="" />
     <property name="user.properties.file" value="C:\Users\Usuario\AppData\Roaming\NetBeans\21\build.properties" />
     <property name="libs.javaee-api-6.0.src" value="" />
+    <property name="javac.includes" value="es/ceu/gisi/modcomp/gic_algorithms/test/T2_WFCFGBasicTest.java" />
     <property name="netbeans.autoupdate.country" value="ES" />
     <property name="java.class.path" value="C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\classes;C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\junit-4.13.2.jar;C:\Program Files\NetBeans-21\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Usuario\Documents\NetBeansProjects\trabajoModelosComputacion\cfg-rosa\build\test\classes;C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-21\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
@@ -414,7 +417,7 @@
     <property name="libs.jakartaee-web-api-10.0.maven-pom" value="" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="libs.spring-framework300.maven-pom" value="" />
-    <property name="ant.project.invoked-targets" value="test" />
+    <property name="ant.project.invoked-targets" value="test-single" />
     <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jstl-api.jar" />
     <property name="ap.cmd.line.internal" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
@@ -432,6 +435,7 @@
     <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-21\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
     <property name="libs.jakartaee-web-api-9.0.src" value="" />
     <property name="libs.jakartaee-web-api-10.0.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\jakarta.jakartaee-web-api-10.0.0.jar" />
+    <property name="test.class" value="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="libs.jakartaee-api-8.0.src" value="" />
@@ -440,115 +444,99 @@
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-21\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminaProduccionesLambda1" time="0.008">
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminaProduccionesLambda1" time="0.009">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:324)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:373)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.eliminaProduccionesLambda1(T2_WFCFGBasicTest.java:283)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminaProduccionesLambda2" time="0.001">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:324)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:373)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.eliminaProduccionesLambda2(T2_WFCFGBasicTest.java:309)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminaProduccionesLambda3" time="0.002">
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminaProduccionesLambda3" time="0.001">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:324)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:373)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.eliminaProduccionesLambda3(T2_WFCFGBasicTest.java:342)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminarSimbolosInnecesarios1" time="0.001">
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminarSimbolosInnecesarios1" time="0.002">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.removeUselessSymbols(CFGAlgorithms.java:313)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.removeUselessSymbols(CFGAlgorithms.java:362)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.eliminarSimbolosInnecesarios1(T2_WFCFGBasicTest.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminarSimbolosInnecesarios2" time="0.0">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.removeUselessSymbols(CFGAlgorithms.java:313)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.removeUselessSymbols(CFGAlgorithms.java:362)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.eliminarSimbolosInnecesarios2(T2_WFCFGBasicTest.java:161)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarGramáticaBienFormada1" time="0.0">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.transformToWellFormedGrammar(CFGAlgorithms.java:367)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.transformToWellFormedGrammar(CFGAlgorithms.java:416)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarGramáticaBienFormada1(T2_WFCFGBasicTest.java:448)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarGramáticaBienFormada2" time="0.0">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.transformToWellFormedGrammar(CFGAlgorithms.java:367)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.transformToWellFormedGrammar(CFGAlgorithms.java:416)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarGramáticaBienFormada2(T2_WFCFGBasicTest.java:480)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="contieneProduccionesLambda1" time="0.0">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:324)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:373)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.contieneProduccionesLambda1(T2_WFCFGBasicTest.java:190)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="contieneProduccionesLambda2" time="0.0">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:324)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:373)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.contieneProduccionesLambda2(T2_WFCFGBasicTest.java:227)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="noContieneProduccionesLambda1" time="0.001">
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="noContieneProduccionesLambda1" time="0.0">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:324)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasLambdaProductions(CFGAlgorithms.java:373)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.noContieneProduccionesLambda1(T2_WFCFGBasicTest.java:247)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
   <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarTieneReglasUnitarias1" time="0.0">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUnitProductions(CFGAlgorithms.java:347)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUnitProductions(CFGAlgorithms.java:396)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarTieneReglasUnitarias1(T2_WFCFGBasicTest.java:366)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminarReglasUnitarias1" time="0.0">
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="eliminarReglasUnitarias1" time="0.001">
     <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUnitProductions(CFGAlgorithms.java:347)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUnitProductions(CFGAlgorithms.java:396)
 	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.eliminarReglasUnitarias1(T2_WFCFGBasicTest.java:400)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarTieneReglasInnecesarias1" time="0.0">
-    <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUselessProductions(CFGAlgorithms.java:293)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarTieneReglasInnecesarias1(T2_WFCFGBasicTest.java:51)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarTieneReglasInnecesarias2" time="0.0">
-    <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUselessProductions(CFGAlgorithms.java:293)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarTieneReglasInnecesarias2(T2_WFCFGBasicTest.java:64)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarTieneReglasInnecesarias3" time="0.001">
-    <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUselessProductions(CFGAlgorithms.java:293)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarTieneReglasInnecesarias3(T2_WFCFGBasicTest.java:79)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
-  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarEliminarReglasInnecesarias" time="0.001">
-    <error message="Not supported yet." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Not supported yet.
-	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.hasUselessProductions(CFGAlgorithms.java:293)
-	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarEliminarReglasInnecesarias(T2_WFCFGBasicTest.java:95)
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarTieneReglasInnecesarias1" time="0.001" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarTieneReglasInnecesarias2" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarTieneReglasInnecesarias3" time="0.0" />
+  <testcase classname="es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest" name="comprobarEliminarReglasInnecesarias" time="0.005">
+    <error type="java.util.ConcurrentModificationException">java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1095)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1049)
+	at es.ceu.gisi.modcomp.gic_algorithms.CFGAlgorithms.removeUselessProductions(CFGAlgorithms.java:344)
+	at es.ceu.gisi.modcomp.gic_algorithms.test.T2_WFCFGBasicTest.comprobarEliminarReglasInnecesarias(T2_WFCFGBasicTest.java:96)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 </error>
   </testcase>
