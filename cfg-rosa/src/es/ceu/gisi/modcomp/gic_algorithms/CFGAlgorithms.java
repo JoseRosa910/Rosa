@@ -335,7 +335,7 @@ public class CFGAlgorithms implements CFGInterface, WFCFGInterface, CNFInterface
      * @return Devuelve una lista de producciones (un String de la forma "A::=A"
      * por cada producción), con todas las reglas innecesarias eliminadas.
      */
-    public List<String> removeUselessProductions() {
+    public List<String> removeUselessProductions() { //Ns
         String cad = "";
         String prodElim = "";
         List<String> prodsElim = new ArrayList<>();
